@@ -1,0 +1,109 @@
+html, body, .jumbotron{
+	height: 100%;
+}
+
+.jumbotron {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.container {
+	width: 100%;
+}
+
+.alert {
+	text-align: center;
+	width: 300px;
+	padding: 10px 5px;
+	margin: 20px auto;
+}
+
+.form_bg {
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #d3d3d3;
+	margin: 0px auto;
+	padding-bottom: 20px;
+}
+
+.title {
+	color: white;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	background-color: #b51f38;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size : 20px;
+}
+
+
+.form-group {
+	width: 100%;
+	text-align: center;
+}
+
+.form-control {
+	margin: 20px auto;
+	width: 100%;
+	border-radius: 15px;
+	letter-spacing: 2px;
+	max-width: 250px;
+	-webkit-appearance: none;
+}
+
+.form-text {
+	text-align: center;
+	color: red;
+}
+
+.form-control:focus {
+	box-shadow: none !important;
+}
+
+/* Center the loader */
+svg path,
+svg rect{
+  fill: white;
+}
+
+.submit {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	letter-spacing: 2px;
+	background-color: #b51f38;
+	color: white; 
+	cursor: pointer;
+	border-radius: 15px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.submit:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.submit:active, .submit:focus {
+	outline: none !important; 
+	box-shadow: none;
+	color: white;
+}
+
+.error_msg {
+	text-align: center;
+	margin-top: 10px;
+	color: red;
+}
+
+.disable {
+	display: none;
+}
